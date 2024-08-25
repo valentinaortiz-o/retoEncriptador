@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: "Inconsolata", monospace;
+    
+}
+
+.cabecera{
+    height: 80px;
+    background-color: black;
+}
+.logos{
+    width: 90px;
+    margin-left:30px;
+    margin-top: 5px;
+}
+
+main{
+    background-image: url("imagenes/abstract-5035778_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+}
+
+.titulos-centralizados{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    color: whitesmoke;
+}
+.imagen-candado{
+    width: 60px;
+}
+
+.contenido-texto{
+    text-align: center;
+    display: inline-block;
+    background: #2c2c2c;
+    width: 30%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.texto-usuario{
+    width: 93%;
+    text-transform: lowercase;
+    background: #2c2c2c;
+    border-radius: 3%;
+    border: 3px solid #3bbdf5;
+    font-size: 15px;
+    color: azure;
+    }
+
+.mensaje-advertencia{
+    color: azure;
+}    
+
+.botones{
+    text-align: center;
+    margin-top: 10px;
+    }
+
+button{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #095ada;
+    border: #E0E1DD;
+    }
+
+    button:hover{
+        background-color: white;
+        color:#0c3474;
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5);
+    
+    }
+
+.contenido-resultado{   
+    vertical-align: top;
+    text-align: center;
+    background-color: #2c2c2c;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    height: 80%;
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    
+}
+.imagen-eva{
+    width: 336px;
+    height: 304px;
+    position: relative;
+}
+.texto-resultado{
+    width: 93%;
+    text-transform: lowercase;
+    background: #2c2c2c;
+    border-radius: 3%;
+    border: 3px solid #3bbdf5;
+    font-size: 15px;
+    color: azure;
+}
+
+.imagenes-footer{
+    width: 30px;
+    margin: 10px 0;
+}
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #0D1B2A;
+    padding: 20px;
+    color: #E0E1DD;
+}

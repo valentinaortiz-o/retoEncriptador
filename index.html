@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabecera">
+        <img class="logos" src="imagenes/aluraLogo.png">
+        <img class="logos" src="imagenes/oneLogo.png">
+    </header>
+
+    <main>
+
+
+    <section class="contenido-texto">
+        <div>
+            <h1 class="titulos-centralizados">Bienvenido al encriptador</h1>
+            <img src="imagenes/candado.png" class="imagen-candado" alt="">
+            <textarea id="textoUsuario" class="texto-usuario" rows="25" placeholder="Ingrese el texto aqui..."></textarea>
+        </div>
+        <div class="botones">
+            <p class="mensaje-advertencia"> ⚠ Solo letras minusculas y sin acentos</p>
+            <button onclick="btnEncriptar()" id="btn-Encriptar">Encriptar</button>  
+            <button onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+
+    <section class="contenido-resultado">
+        <div>
+            <img src="imagenes/pngimg.com - robot_PNG6 - copia.png" class="imagen-eva" alt="">
+            <textarea id="textoResultado" class="texto-resultado" rows="15" placeholder="Ningun mensaje fue encontrado" readonly></textarea>
+            <p class="mensaje-advertencia">Ingresa el texto que deseas encriptar o desencriptar.</p>
+        </div>
+        <button onclick="btncopiar()" class="boton-copiar">Copiar</button>
+    </section>
+
+    </main>
+
+    <footer>
+
+        <a href="https://github.com/valentinaortiz-o"><img src="imagenes/pngaaa.com-94921.png" alt="Logo de GitHub" class="imagenes-footer"></a>
+        <a href="https://www.linkedin.com/in/valentina-escobar-ortiz-340915296/"><img src="imagenes/logo-linkedin-icon-1536.png" alt="Logo de LinkedIn" class="imagenes-footer"></a>
+        <p>©2024 - Todos los derechos reservados.  Desarrollado por Valentina Escobar</p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
